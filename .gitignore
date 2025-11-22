@@ -1,0 +1,55 @@
+# ----- Python -----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Pip cache
+pip-wheel-metadata/
+pip-log.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# ----- Arduino -----
+*.hex
+*.elf
+*.eep
+*.bin
+.build/
+.cache/
+
+# ----- VSCode -----
+.vscode/
+
+# ----- Windows system files -----
+Thumbs.db
+Desktop.ini
+
+# ----- Media files often produced by OpenCV (opsional) -----
+*.avi
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.bmp
+
+# PyInstaller artifacts (kalau kamu packaging Python app)
+*.spec
